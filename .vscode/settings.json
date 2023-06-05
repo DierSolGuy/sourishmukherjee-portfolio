@@ -1,0 +1,23 @@
+{
+	"prettier.singleQuote": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	// The number of spaces a tab is equal to.
+	"editor.tabSize": 4,
+	// Insert spaces when pressing Tab.
+	"editor.insertSpaces": false,
+	// When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+	"editor.detectIndentation": true,
+	"prettier.arrowParens": "avoid",
+	"editor.codeActionsOnSave": {
+		// For ESLint
+		"source.fixAll.eslint": true,
+		// For TSLint
+		"source.fixAll.tslint": true,
+		// For Stylelint
+		"source.fixAll.stylelint": true
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
